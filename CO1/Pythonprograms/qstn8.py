@@ -4,11 +4,6 @@ A = [[1,2,3],[4,5,6]]
 B = [[7,9,11],[8,10,12]]
 Btrans = np.transpose(B)
 result = np.dot(A,Btrans)
-
-
-
-
-
 print("Matrix A:")
 print(A)
 

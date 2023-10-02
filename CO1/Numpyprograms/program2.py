@@ -1,10 +1,7 @@
-#program to count the uppercase and lower case 
-s = input("Enter string:")
-uc=0
-lc=0
-for i in s:
-    if(i .isupper()):
-        uc = uc+1
-    elif (i.islower()):
-        lc = lc+1
-print("Uppercase count:",uc,"\nLowercase count:",lc)   
+#find the number of occurences of a sequence in numpy array.
+import numpy as np
+arr1 = np.array([[2,8,9,4],[9,4,9,4],[4,5,9,7],[2,9,4,3]])
+#seq = [9,4]
+
+result = repr(arr1).count("9, 4")
+print("Count = ",result)

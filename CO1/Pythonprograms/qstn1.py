@@ -1,12 +1,18 @@
-# to find mean,median,and standard deviation
-import numpy as np
-arr = np.array([76,81,82,84,84,85,97])
-meanvalue = np.mean(arr)
-medianvalue = np.median(arr)
-sd = np.std(arr)
-print("Mean = ",meanvalue)
-print("Median = ",medianvalue)
-print("standard deviation = ",sd)
+# Write a program to reverse a number and find the sum of digits. Accept user input
+# n = int(input("Enter a number"))
+# rev = 0
+# while n>0:
+   
+#     rem = n%10
+#     rev = rev*10+ rem
+#     n = n//10
+# print("reverse of number :",rev)
+
+n = int(input("Enter a number"))
+s = str(n)
+print("reverse =",s[::-1])
+
+
 
 
 
