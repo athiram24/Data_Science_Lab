@@ -12,7 +12,7 @@ def isvalid(password):
     if not re.search(r'[A-Z]',password):
                 return False
     return True
-adhiM 
+
 
 password = input("Enter a password:")
 if(isvalid(password)):
